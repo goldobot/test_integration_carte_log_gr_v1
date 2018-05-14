@@ -1,0 +1,3 @@
+newboot.o: newboot.S ../include/leon.h
+init.o: init.c ../include/leon.h
+trap.o: trap.S ../include/leon.h
